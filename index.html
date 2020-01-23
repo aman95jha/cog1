@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+let's start
+</title>
+</head>
+<Style>
+body{  
+background-color:powderblue;
+}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</style>
+<center>
+<h1 style="color:REd;">Welcome To The Home Page</h1> 
+</center>
+<form>
+<center>
+First name:<br>
+<input type="Text" name = "first name"><br>
+
+Last name:<br>
+<input type="Text" name = "last name"><br>
+Mobile number:<br>
+<input type="Text" name = "Mobile number" required><br>
+Email ID : <br>
+<input type = "Text" name = " Email Id " required> <br>
+<br>
+<input type = "button" value  = "submit" required > <br>
+<Address>
+visit us at:<br>
+Alchemy Solution<br>
+Raj pinnacle,1234<br>  
+<br>
+<h2 style="color: red;"> About Us</h2>
+<p style = "font-size:x-large;"> This is the project for Evaluation</p>
+
+</Address>
+</center>
+</form>
+<center>
+<h3> Java script used here</h3>
+</center>
+<script>
+alert ("Hello javascripy first")
+</script>
+<center>
+<a href="proj.html"     button type="button" onclick="myFunction()">Click me</a href="proj.html"     button>
+<script>  
+function validate(){  
+var num=document.myform.num.value;  
+if (isNaN(num)){  
+  document.getElementById("numloc").innerHTML="Enter Numeric value only";  
+  return false;  
+}else{  
+  return true;  
+  }  
+}  
+</script>  
+<center>
+<form name="myform" onsubmit="return validate()" >  
+Number: <input type="text" name="num"><span id="numloc"></span><br/>  
+<input type="submit" value="submit"> 
+</center> 
+</form>      
+</center>
+</body>
+</html>          
+                        
